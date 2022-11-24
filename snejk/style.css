@@ -1,0 +1,27 @@
+.grid {
+  position: absolute;
+  display: grid;
+  border: gray solid 10px;
+
+  background-color: black;
+  bottom: 100px;
+  left: 0px;
+}
+
+.griditem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  border: 3px solid black;
+}
+
+.food {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: brown;
+  z-index: 100;
+}
